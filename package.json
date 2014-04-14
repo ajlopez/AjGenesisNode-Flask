@@ -1,0 +1,17 @@
+{ "name": "ajgenesisnode-flask"
+, "description": "AjGenesis for Flask, tasks and templates"
+, "keywords": [ "codegeneration", "nodejs", "ajgenesis", "flask", "python" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/AjGenesisNode-Flask.git" }
+, "main": "./index.js"
+, "engines": { "node": ">= 0.6.0 && < 0.13.0" }
+, "scripts": {
+    "test": "simpleunit ./test"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+    "simpleunit": "0.0.4"
+  }
+}
