@@ -1,28 +1,28 @@
-# AjGenesisNode Django
+# AjGenesisNode Flask
 
-AjGenesisNode Django tasks and templates, to generate web sites using Django. WIP.
+AjGenesisNode Flask tasks and templates, to generate web sites using Flask. WIP.
 
 ## Setup
 
 Install [Node.js](http://nodejs.org).
 
-Install globally latests version of AjGenesis for Node, Entity and Django modules:
+Install globally latests version of AjGenesis for Node, Entity and Flask modules:
 ```
 npm install ajgenesis -g
 npm install ajgenesisnode-entity -g
 npm install ajgenesisnode-model -g
-npm install ajgenesisnode-django -g
+npm install ajgenesisnode-flask -g
 ```
 
 ## Quick start
 
 In any directory, create an application
 ```
-ajgenesis django:create demo
+ajgenesis flask:create demo
 cd demo
 ```
 
-The AjGenesis `django` module is installed automatically from `ajgenesisnode-django`, if it is not already installed.
+The AjGenesis `flask` module is installed automatically from `ajgenesisnode-flask`, if it is not already installed.
 
 The new directory has subdirectories:
 
@@ -62,7 +62,7 @@ Generate the sqlite database
 python manage.py syncdb
 ```
 
-Run the server (TBD: explain django install)
+Run the server (TBD: explain flask install)
 ```
 python manage.py runserver
 ```
@@ -75,8 +75,8 @@ The admin site is available in your browser using `http://localhost:8000/admin`.
 
 ```
 npm install -g ajgenesis
-git clone git://github.com/ajlopez/AjGenesisNode-Django.git
-cd AjGenesisNode-Django
+git clone git://github.com/ajlopez/AjGenesisNode-Flask.git
+cd AjGenesisNode-Flask
 npm link ajgenesis
 npm install
 npm test
@@ -94,8 +94,8 @@ TBD
 
 ## Contribution
 
-Feel free to [file issues](https://github.com/ajlopez/AjGenesisNode-Django) and submit
-[pull requests](https://github.com/ajlopez/AjGenesisNode-Django/pulls) — contributions are
+Feel free to [file issues](https://github.com/ajlopez/AjGenesisNode-Flask) and submit
+[pull requests](https://github.com/ajlopez/AjGenesisNode-Flask/pulls) — contributions are
 welcome.
 
 If you submit a pull request, please be sure to add or update corresponding
